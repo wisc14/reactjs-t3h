@@ -1,0 +1,3 @@
+Nguyen Manh Hung
+age: 21
+study at: academy of cryptography techniques
