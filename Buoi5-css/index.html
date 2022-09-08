@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        @font-face {
+            font-family: font-lobster;
+            src: url(Lobster-Regular.ttf);
+        }
+    
+        a:hover {
+            color: red;
+        }
+    
+        a:visited {
+            color: green;
+        }
+    
+        .parent-size {
+            width: 100%;
+            height: 200px;
+            background-color: rgb(236, 149, 17);
+        }
+    
+        .child-size {
+            font-size: 5px;
+            width: 50%;
+            height: 50%;
+            background-color: violet;
+        }
+    
+        .sp1 {
+            font-family: 'Pathway Gothic One', sans-serif;
+            font-size: 3em;
+        }
+    
+        .sp2 {
+            font-size: 3rem;
+        }
+        .fontoff{
+            font-family: font-lobster;
+        }
+    </style>
+</head>
+
+
+<body>
+    <div class="agenda">
+        Agenda: <br> -các thuộc tính trong css <br>- layout trong css
+
+    </div>
+    <div class="main">
+        <a href="https://www.google.com/">Link đến trang google</a>
+    </div>
+    <!-- đơn vị đo lường: %, px, em, rem -->
+    <div class="parent-size">
+        <div class="child-size">
+            <span class="sp1">span 1</span>
+            <span class="sp2">span 2</span>
+        </div>
+    </div>
+    <p class="fontoff">font offline</p>
+</body>
+
+</html>
