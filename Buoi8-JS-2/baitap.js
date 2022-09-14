@@ -50,3 +50,4 @@ console.log('Kiem tra ki tu nhap vao co trong chuoi khong ', dataT.includes('hun
 console.log('Cat chuoi tu vi tri [start;end) ', dataT.slice(0,5));
 //indexOf vi tri cua cuoi a trong chuoi b: a.indexOf(b);
 //BTVN B1--> B10 trong word (2,4,6,7,8,9,10)
+//Buổi sau học function, string tiếp, array, object
