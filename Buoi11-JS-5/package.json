@@ -1,0 +1,22 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "Bai tap se o trong folder cua tung buoi \r 2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wisc14/reactjs-t3h.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wisc14/reactjs-t3h/issues"
+  },
+  "homepage": "https://github.com/wisc14/reactjs-t3h#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}

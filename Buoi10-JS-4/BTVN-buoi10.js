@@ -28,6 +28,11 @@ const locMang = (arr) => {
 }
 locMang([1, 2, 4, 5, 6, 7, 8, 23, 55])
 
+let arrayT = [1, 2, 4, 5, 6, 7, 8, 23, 55]
+let filterArr = arrayT.filter((item, index)=>{
+    return checkSNT(item) === 1;
+})
+console.log(filterArr);
 // 25. Cho một mảng là một tập các số nguyên dương, 
 // hãy tạo một mảng b là tập hợp bình phương của các số trong mảng a
 const mangBinhPhuong = (arr) =>{
@@ -38,7 +43,11 @@ const mangBinhPhuong = (arr) =>{
     console.log(squareArray);
 }
 mangBinhPhuong([1,2,3,4,5,6,7,8,9])
-
+let array2 = [1,2,3,4,5,6,7,8,9];
+let mapArray2 = array2.map((item, index) => {
+    return item * item;
+})
+console.log(mapArray2);
 // 26. Cho một mảng là một tập các số nguyên dương không trùng giá trị,
 //  và một số k. Hãy tìm trong mảng phần có khoảng cách tử gần với k nhất.
 //   Vì có thể có nhiều đáp án in ra tất cả vào một mảng.

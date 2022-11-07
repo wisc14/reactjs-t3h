@@ -1,0 +1,17 @@
+//yarn, npm: node package manager
+// viết function tìm số nguyên tố ==> đẩy lên internet 
+// ==> để cho ng khác sử dụng
+// ng khác muốn sử dụng: install thư viện
+// tìm thư viện uy tín để sử dụng.
+// uy tín dựa trên yếu tố: có đc update thường xuyên k, có nhiều lượt download k?....
+
+// npm init -y 
+// yarn add tenthuvien
+// ==> thư viện sẽ được add vào dependencies của package.json
+// để bỏ node_modules không đẩy lên git ==> sử dụng .gitignore
+// ==> clone source code bất kỳ mà có package.jon ==> source đó cần cài thêm thư viện bên ngoài
+// ==> yarn install để kéo hết thư viện về máy.
+
+để sử dụng 1 thư viện ==> require
+
+Thư viện bản thân node có:
